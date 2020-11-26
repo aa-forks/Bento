@@ -38,7 +38,7 @@ const config = {
         {
             url: 'https://canary.discord.com/widget?id=754130139415183401&theme=dark',
             // optional prop to zoom the frame in/out
-            zoom: 0.8
+            zoom: 0.85
         }
     ],
     // for weather data, remove this to remove weather
