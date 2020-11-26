@@ -1,11 +1,11 @@
 const config = {
-    "12hr": false, // 12 hour clock
+    "12hr": true, // 12 hour clock
     greetings: {
         night: "Good Night",
         morning: "Good Morning",
         afternoon: "Pleasing afternoon",
         evening: "Delightful evening",
-        name: "aa"
+        name: "AA"
     },
     // main buttons
     buttons: [
@@ -25,20 +25,20 @@ const config = {
             icon: 'github',
             items: [
                 {
-                    name: 'DanK',
-                    url: 'https://github.com/DanKGooGly'
+                    name: 'Me',
+                    url: 'https://github.com/AAGaming00'
                 },
                 {
-                    name: 'AA',
-                    url: 'https://github.com/AAGaming00'
+                    name: 'Powercord fork',
+                    url: 'https://github.com/AAGaming00/powercord'
                 }
             ]
         },
         // example iframe panel
         {
-            url: 'https://example.com/',
+            url: 'https://canary.discord.com/widget?id=754130139415183401&theme=dark',
             // optional prop to zoom the frame in/out
-            zoom: 0.5
+            zoom: 0.8
         }
     ],
     // for weather data, remove this to remove weather
